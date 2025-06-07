@@ -1,0 +1,41 @@
+# Java
+*.class
+*.tmp
+*.out
+*.bak
+
+# Maven
+/target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Logs
+logs/
+*.log
+
+# Allure
+.allure
+allure-report/
+allure-results
+*/allure-results/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+#Linux
+*~
+.cache/
+.config/
+Trash-*/
