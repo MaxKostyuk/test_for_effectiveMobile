@@ -1,10 +1,10 @@
-package request;
+package api.request;
 
+import api.logging.RestAssuredLoggerFilter;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import config.Config;
+import api.config.Config;
 import io.restassured.RestAssured;
-import logging.RestAssuredLoggerFilter;
 
 public class BaseRequest {
     private static final ObjectMapper mapper;

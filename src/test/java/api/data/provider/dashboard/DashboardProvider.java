@@ -1,6 +1,6 @@
-package data.provider.dashboard;
+package api.data.provider.dashboard;
 
-import models.CreateDashboardBodyDTO;
+import api.models.CreateDashboardBodyDTO;
 import net.datafaker.Faker;
 
 public class DashboardProvider {

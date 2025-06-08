@@ -1,22 +1,22 @@
-package tests.dashboard.create;
+package api.tests.dashboard.create;
 
-import checks.CommonChecks;
-import checks.DashBoardChecks;
-import checks.ErrorChecks;
-import config.Config;
-import data.provider.dashboard.DashboardProvider;
+import api.checks.DashBoardChecks;
+import api.checks.ErrorChecks;
+import api.config.Config;
+import api.models.CreateDashboardBodyDTO;
+import api.request.DashboardRequest;
+import api.tests.BaseTestClass;
+import api.checks.CommonChecks;
+import api.data.provider.dashboard.DashboardProvider;
 import io.qameta.allure.Description;
 import io.restassured.response.Response;
 import lombok.extern.slf4j.Slf4j;
-import models.CreateDashboardBodyDTO;
-import models.CreateDashboardResponseDTO;
+import api.models.CreateDashboardResponseDTO;
 import org.apache.http.HttpStatus;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import request.DashboardRequest;
-import tests.BaseTestClass;
 
 import java.util.Optional;
 

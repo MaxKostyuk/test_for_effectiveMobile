@@ -1,12 +1,12 @@
-package request;
+package api.request;
 
-import config.Config;
+import api.config.Config;
 import io.qameta.allure.Step;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import models.CreateDashboardBodyDTO;
+import api.models.CreateDashboardBodyDTO;
 
 public class DashboardRequest extends BaseRequest {
     private static final String CREATE_DASHBOARD_URL;

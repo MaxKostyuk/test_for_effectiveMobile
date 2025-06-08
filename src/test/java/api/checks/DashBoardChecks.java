@@ -1,8 +1,8 @@
-package checks;
+package api.checks;
 
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
-import models.CreateDashboardResponseDTO;
+import api.models.CreateDashboardResponseDTO;
 
 public class DashBoardChecks {
 

@@ -1,4 +1,4 @@
-package logging;
+package api.logging;
 
 import io.restassured.filter.Filter;
 import io.restassured.filter.FilterContext;

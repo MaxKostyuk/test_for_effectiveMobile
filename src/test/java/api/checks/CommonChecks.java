@@ -1,11 +1,10 @@
-package checks;
+package api.checks;
 
+import api.request.BaseRequest;
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Assertions;
-
-import static request.BaseRequest.fromJson;
 
 @Slf4j
 public class CommonChecks {
@@ -30,7 +29,7 @@ public class CommonChecks {
 
     public static <T> T assertionParseSuccessful(String jsonString, Class<T> classOfT) {
         try {
-            var object = Assertions.assertDoesNotThrow(() -> fromJson(jsonString, classOfT));
+            var object = Assertions.assertDoesNotThrow(() -> BaseRequest.fromJson(jsonString, classOfT));
             log.info("Parsing object is successful");
             return object;
         } catch (AssertionError e) {
