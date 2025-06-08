@@ -1,0 +1,4 @@
+baseUrl: "https://demo.reportportal.io/api/"
+createDashboardUrl: "v1/%s/dashboard"
+apiKey: "newKey_dXCJm_WyQy6kwq_6BjlApkrxGhqQusTH9gSiflzk79rhd1Uua-AFzzTv4_jFe2nr"
+defaultProjectName: "default_personal"
