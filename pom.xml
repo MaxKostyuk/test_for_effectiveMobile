@@ -21,6 +21,8 @@
         <slf4j.version>2.0.17</slf4j.version>
         <logback.version>1.5.18</logback.version>
         <datafaker.version>2.4.2</datafaker.version>
+        <selenium.version>4.33.0</selenium.version>
+        <webdrivermanager.version>6.1.0</webdrivermanager.version>
         <mavensurefireplugin.version>3.2.5</mavensurefireplugin.version>
         <aspectj.version>1.9.23</aspectj.version>
         <alluremavenplugin.version>2.15.2</alluremavenplugin.version>
@@ -108,6 +110,16 @@
             <artifactId>datafaker</artifactId>
             <version>${datafaker.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>${webdrivermanager.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -158,5 +170,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
